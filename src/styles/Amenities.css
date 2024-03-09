@@ -1,0 +1,72 @@
+
+
+/* Amenities */
+
+.amenities{
+    /* height: 81vh; */
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 5vh;
+  }
+
+  .amenities_head{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .amenities h1{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: bold;
+  }
+  .amenities hr{
+    width: 140px;
+    margin: 0 0 5vh 0;
+    border: 1.5px solid #50555a;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .amenities{
+      padding-top: 3vh;
+    }
+    .amenities h1{
+      font-size: 2.2rem;
+    }
+  }
+  
+
+.slider {
+    margin:0 20px;
+    overflow:"hidden";
+    padding:2rem 0;
+    height: 50vh;
+    margin-bottom: 5vh;
+  }
+
+  .slider p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    height: 10vh;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 40vh;
+    border-radius:10px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 1rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }

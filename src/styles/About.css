@@ -1,0 +1,226 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutPart1{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutPart1 h1{
+    padding-top: 5vh;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: bold;
+  }
+  .aboutPart1 hr{
+    width: 100px;
+    margin: 0;
+    margin-left: calc(50% - 50px);
+    border: 1.5px solid #597189;
+  }
+  .aboutBox{
+    height: 70vh;
+    width: 90%;
+    background: rgb(0,35,121);
+    background: linear-gradient(150deg, rgb(1, 38, 82) 0%, rgb(3, 85, 168) 40%, rgb(1, 33, 72) 100%);
+    border-radius: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin: 5vh 0;
+  }
+  .aboutBox img{
+    height: 60vh;
+    width: 40vw;
+    margin: 5vh 0 5vh 5vh;
+    border-radius: 0.7rem;
+    filter: brightness(70%);
+  }
+  
+  .aboutBoxContent{
+    text-align:justify;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .aboutBoxContent p{
+    color: #cecdcd;
+    font-family: 'Arimo', sans-serif;
+    /* font-style: italic; */
+    margin-bottom: 0%;
+    font-size: 0.9rem;
+  }
+  .aboutContentPara{
+    margin-bottom: 5%;
+  }
+  
+  .aboutBoxIcons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .aboutIcon1{
+    font-size: 3.5rem;
+    color: #017ed8;
+    cursor: pointer;
+  }
+  .aboutIcon1 p{
+    font-size: 0.7rem;
+    margin: 0;
+    color: #9c9b9b;
+  }
+  .aboutIcon1 p:hover{
+    color: #f1f1f1;
+  }
+  .aboutIcon2{
+    font-size: 3.5rem;
+    color: #017ed8;
+    cursor: pointer;
+  }
+  .aboutIcon2 p{
+    font-size: 0.7rem;
+    margin: 0;
+    color: #9c9b9b;
+  }
+  .aboutIcon2 p:hover{
+    color: #f1f1f1;
+  }
+
+
+  .aboutPart2{
+    /* height: 91vh; */
+    width: 100%;
+    background-color: #000000ed;
+   
+  }
+  
+  .aboutPart2Content{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 15vh;
+    padding: 4% 0;
+  }
+  .localAuthority{
+    text-align: center;
+  }
+  
+  
+  .localAuthorityTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .localAuthorityTitle h1{
+    margin: 0;
+    margin: 0 10px;
+    color: #e1e3e4;
+    font-family: 'Arimo', sans-serif;
+    font-size: 2rem;
+  }
+  .localAuthorityTitle #hr1{
+    margin: 0;
+    width: 30px;
+    height: 0;
+    border: 1.5px solid #5b5858;
+  }
+  .localAuthorityTitle #hr2{
+    margin: 0;
+    width: 68%;
+    height: 0;
+    border: 1.5px solid #5b5858;
+  }
+  
+  
+  .localAuthorityPersons{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 40px;
+  }
+  .localAuthorityPersons img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #707578;
+  }
+  .localAuthorityPersons h2{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #75a9f0;
+  }
+  .localAuthorityPersons p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #c0bfbf;
+  }
+  
+  
+  @media only screen and (max-width: 600px){
+    .about h1{
+      font-size: 2.5rem;
+    }
+    .aboutBox{
+      height: fit-content;
+      width: 90%;
+      padding-bottom: 5vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .aboutBox img{
+      height: 40vh;
+      width: 90%;
+      margin: 0;
+      margin: 20px 0 20px 0;
+      border-radius: 0.7rem;
+      filter: brightness(70%);
+    }
+    .aboutBoxIcons{
+      display: flex;
+      width: 70%;
+      justify-content: space-between;
+      text-align: center;
+    }
+  
+    .aboutPart2{
+      width: 100%;
+      background-color: #000000ed;
+    }
+    .aboutPart2Content{
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      gap: 10vh;
+      padding: 6vh 0;
+    }
+  
+    
+    .localAuthorityPersons{
+      display: flex;
+      flex-direction: column;
+      gap: 15%;
+      row-gap: 5vh;
+      margin-top: 40px;
+    }
+  
+    .localAuthorityTitle h1{
+      font-size: 2rem;
+    }
+    .localAuthorityTitle #hr1{
+      width: 25px;
+    }
+    .localAuthorityTitle #hr2{
+      width: 25px;
+    }
+  
+  }
+  

@@ -1,0 +1,40 @@
+.HomePage{
+    padding-top: 14vh;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    @media screen and (max-width: 800px){
+        padding-top: 10vh;
+    }
+}
+.HomePage::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+/* hero container */
+
+.hero_container{
+    height: 86vh;
+}
+.carousel_container{
+    height: 86vh;
+}
+
+.carousel_container img{
+    height: 86vh;
+}
+
+
+@media screen and (max-width: 800px){
+    .hero_container{
+        height: 30vh;
+    }
+    .carousel_container{
+        height: 30vh;
+    }
+    .carousel_container img{
+        height: 30vh;
+    }
+    
+}

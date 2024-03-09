@@ -1,0 +1,520 @@
+.admin_page{
+    padding: 16vh 3vh 8vh 3vh;
+    min-height: 90vh;
+    @media screen and (max-width: 800){
+        padding: 12vh 3vh 0 3vh;
+    }
+}
+
+.admin_page h3{
+    font-size: 1.7rem;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: 600;
+    margin-bottom: 0;
+    @media screen and (max-width: 800){
+        font-size: rem;
+    }
+}
+
+.admin_head{
+
+}
+
+.admin_head h1{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    font-weight: 400 !important;
+    font-family: 'Arimo', sans-serif;
+    color: #4d7998;
+    
+}
+@media screen and (max-width: 800){
+    .admin_head h1{
+        font-size: 2rem !important;
+        
+    }
+}
+
+.admin_hero{
+
+
+}
+
+.admin_hero span{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+
+.admin_hero span .admin_button{
+    font-size: 0.7rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 10px !important;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03395f;
+}
+
+.newBannerImg{
+    border: 1px solid #dfe9f0;
+    width: 30%;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    padding: 2vh;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    @media screen and (max-width: 1000px){
+        width: 40%;
+    }
+
+    @media screen and (max-width: 800px){
+        width: 100%;
+    }
+
+}
+
+.newBannerImg input{
+
+}
+
+.newBannerImg span{
+    margin: 0;
+}
+
+.newBannerImg button{
+   margin-bottom: 0;
+}
+
+
+
+.admin_hero_images{
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    justify-content: space-between;
+    row-gap: 4vh;
+    @media screen and (max-width: 1000px){
+        grid-template-columns:  48% 48%;
+        justify-content: space-between;
+    }
+    @media screen and (max-width: 800px){
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+.admin_hero_image{
+    width: 100%;
+    height: 45vh;
+}
+
+.admin_hero_image img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.admin_hero_image button{
+    font-size: 1rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 20px !important;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec2525;
+    margin-top: 5px;
+}
+
+
+
+/* Admin authorities */
+
+
+.admin_authorities_page{
+    padding: 8vh 0vh 8vh 0vh;
+
+
+}
+
+.admin_authority_body{
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 60% 36%;
+    gap: 4%;
+
+    @media screen and (max-width: 1000px){
+        grid-template-columns: 100%;
+        display: flex;
+        gap: 0;
+        flex-direction: column-reverse;
+
+    }
+}
+.AdminAuthorities{
+
+
+}
+
+
+.admin_members{
+
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    row-gap: 4vh;
+
+    margin-top: 3vh;
+
+    @media screen and (max-width: 1000px){
+        grid-template-columns: 31.5% 31.5% 31.5%;
+        justify-content: space-between;
+    }
+    @media screen and (max-width: 800px){
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+
+    
+    @media screen and (max-width: 600px){
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+.admin_member{
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 0.8rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.admin_member:hover{
+
+}
+
+.admin_member img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.8rem;
+    margin-bottom: 1vh;
+}
+
+.admin_member h3{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-size: 1.4rem;
+}
+
+.admin_member span{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-size: 0.9rem;
+}
+.admin_member .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 2vh;
+}
+
+.admin_member h3 span{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-size: 0.6rem;
+}
+
+.admin_member p{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #535d64;
+    font-size: 0.7rem;
+}
+
+.admin_member button{
+    font-size: 0.7rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 20px !important;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03395f;
+}
+
+.update_authority{
+    height: fit-content;
+    padding: 4vh;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.update_authority h4{
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.update_authority input{
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #dfe9f0;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.update_authority input:focus{
+    outline: none;
+}
+
+.update_authority textarea{
+    width: 100%;
+    min-height: 16vh;
+}   
+
+.update_authority textarea:focus{
+    outline: none;
+}   
+
+.update_authority span{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.update_authority button{
+    font-size: 0.7rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 25px !important;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03395f;;
+}
+.red_btn{
+    background-color: #ec2525 !important;
+}
+
+
+
+
+/* Admin events */
+
+.admin_event{
+    margin-top: 5vh;
+
+}
+
+.admin_event span{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+
+.admin_event span .admin_button{
+    font-size: 0.7rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 10px !important;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03395f;
+}
+
+.newBannerImg{
+    border: 1px solid #dfe9f0;
+    width: 30%;
+    margin-bottom: 5vh;
+    padding: 2vh;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    @media screen and (max-width: 1000px){
+        width: 40%;
+    }
+
+    @media screen and (max-width: 800px){
+        width: 100%;
+    }
+
+}
+
+.newBannerImg input{
+
+}
+
+.newBannerImg span{
+    margin: 0;
+}
+
+.newBannerImg button{
+   margin-bottom: 0;
+}
+
+
+
+.admin_event_images{
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    justify-content: space-between;
+    row-gap: 4vh;
+    @media screen and (max-width: 1000px){
+        grid-template-columns:  48% 48%;
+        justify-content: space-between;
+    }
+    @media screen and (max-width: 800px){
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+.admin_event_image{
+    width: 100%;
+    height: 55vh;
+}
+
+.admin_event_image img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.admin_event_image p{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #507894;
+    font-size: 0.8rem;
+}
+
+.admin_event_image button{
+    font-size: 1rem;
+    font-family: 'Arimo', sans-serif;
+    color: #f1f7fb;
+    font-weight: 600;
+    padding: 2px 20px !important;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec2525;
+    margin-top: 5px;
+}
+
+
+/* upcomming events */
+
+
+  
+.admin_upcommingEvents{
+    /* width: ; */
+    margin-top: 8vh;
+    text-align: center;
+  }
+
+.admin_upcommingEvents span{
+    display: flex;
+    gap: 1vw;
+  }
+
+
+  .admin_upcommingEventsList{
+
+    height: 45vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    width: 80%;
+    margin-top: 5vh;
+}
+
+.admin_upcommingEventsList::-webkit-scrollbar {
+  display: none;
+}  
+
+.admin_upcommingEventsList span{
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 2vh;
+}
+
+.admin_upcommingEventsList span p{
+
+    text-align: justify;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.admin_upcommingEventsList .upcommingEventIcon{
+    width: 10%;
+    margin-top: 5px;
+}
+
+.admin_upcommingEventsList .delete_icon{
+
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #ec2525;
+}
+
+
+@media only screen and ( max-width: 600px){
+
+.admin_upcommingEvents{
+    width: 100%;
+    height: 40vh !important;
+    /* margin-top: 40px; */
+    text-align: center;
+  }
+.admin_upcommingEvents .title{
+    display: flex;
+    flex-direction: column;
+  }
+.admin_upcommingEvents .title h2{
+    font-size: 1.7rem !important;
+  }
+.admin_upcommingEventsList{
+      height: 30vh;
+  }
+  #eventsHr2{
+    width: 140px !important;
+    margin: 0 0 5vh 0;
+    border: 1.5px solid #50555a;
+  }
+}

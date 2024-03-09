@@ -1,0 +1,294 @@
+
+.contactPage{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactPage h1{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: bold;
+  }
+  .contactPage hr{
+    width: 110px;
+    margin: 0 0 5vh 0;
+    border: 1.5px solid #50555a;
+  }
+  
+  .contactContent{
+    display: flex;
+    height: 70vh;
+    width: 80vw;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(207, 207, 207);
+  }
+  
+  .contactDetails{
+  
+    width: 30vw;
+    /* background-color: #03296b; */
+    background: rgb(0,35,121);
+    background: linear-gradient(150deg, rgb(3, 62, 134) 0%, rgb(3, 85, 168) 40%, rgb(3, 62, 134) 100%);
+   
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactDetailsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px 0 30px 10px;
+  }
+  .contactDetailsTitle #contHr1{
+    width: 2vw;
+    height: 0;
+    margin: 0;
+    border: 1.5px solid #9b9c9e;
+  }
+  .contactDetailsTitle #contHr2{
+    width: 50%;
+    margin: 0;
+    border: 1.5px solid #9b9c9e;
+  }
+  .contactDetails h3{
+    font-family: 'Arimo', sans-serif;
+    color: #c6c8ca;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .contactDetails #mobileIcon, #mailIcon, #locationIcon {
+    color: #d1cdcd;
+    font-size: 1.3rem;
+  
+  }
+  .contactDetails .address, .mail, .mobile{
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-bottom: 30px;
+  }
+  .contactDetails .address{
+    align-items: start;
+  }
+  
+  .contactDetails .address #locationIcon{
+    margin-top: 0.8vh;
+  }
+  
+  .contactDetails .address h4, .mail h4, .mobile h4{
+    color: #d8d8d8;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .contactDetails .address p, .mail p, .mobile p{
+    color: #a7a5a5;
+    font-family: 'Arimo', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+    max-width: 15vw;
+  }
+  
+  
+  .contactFormContainer{
+    width: 50vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+  }
+  .contactFormContainer h2{
+    font-family: 'Arimo', sans-serif;
+    color: #03395f;
+    font-weight: bold;
+    margin: 20px; 
+    position: relative;
+    left: 0;
+  }
+  
+  .contactForm{
+    width: 45vw;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+  }
+  
+  .contactForm input{
+    border: none;
+    outline: none;
+    height: 40px;
+    border-bottom: 1px solid #caccce;
+    margin-top: 0;
+  }
+  .contactForm label{
+    font-family: 'Arimo', sans-serif;
+    font-size: 0.9rem;
+    color: #001728;
+  }
+  .contactForm input::placeholder{
+    font-family: 'Arimo', sans-serif;
+    color: #cfcfcf;
+  }
+  
+  .contactForm .name, .email, .subject, .message{
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm .subject, .message input{
+    width: 45vw;
+  }
+  .contactForm .message input{
+   height: 80px;
+  }
+  .nameEmail{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nameEmail input{
+    width: 19vw;
+  }
+  .contactForm button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #03296b;
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  @media only screen and (max-width:600px){
+    
+    .contactPage{
+      height: 130vh;
+    }
+    
+    .contactPage h1{
+      font-size: 2.2rem;
+    }
+    .contactContent{
+      display: flex;
+      flex-direction: column;
+      height: 102vh;
+      width: 90vw;
+      padding-top: 0;
+    }
+    
+    .contactDetails{
+      width: 100%;
+      background: rgb(0,35,121);
+      background: linear-gradient(150deg, rgb(2, 51, 111) 0%, rgb(3, 85, 168) 40%, rgb(2, 51, 111) 100%);  
+      display: flex;
+      flex-direction: column;
+      height: 40vh;
+      position: relative;
+      top: 0;
+    }
+    .contactDetails h3{
+      font-size: 1.7rem;
+    }
+    .contactDetails .address p, .mail p, .mobile p{
+      max-width: 70vw;
+    }
+  
+    .contactFormContainer{
+      width: 100%;
+      padding-top: 2vh;
+    }
+    .contactFormContainer h2{
+      font-family: 'Arimo', sans-serif;
+      color: #03395f;
+      font-weight: bold;
+      margin: 20px; 
+      position: relative;
+      left: 0;
+    }
+    
+    .contactForm{
+      width: 90%;
+      height: 60vh;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-items: start;
+      text-align: left;
+      gap: 30px;
+    }
+    
+    .contactForm input{
+      border: none;
+      outline: none;
+      height: 40px;
+      border-bottom: 1px solid #caccce;
+      margin-top: 0;
+    }
+    .contactForm label{
+      font-family: 'Arimo', sans-serif;
+      font-size: 0.9rem;
+      color: #001728;
+    }
+    .contactForm input::placeholder{
+      font-family: 'Arimo', sans-serif;
+      color: #cfcfcf;
+    }
+    
+    .contactForm .name, .email, .subject, .message{
+      display: flex;
+      flex-direction: column;
+    }
+    .contactForm .subject, .message , .nameEmail input{
+      width: 100%;
+    }
+    .contactForm .message input{
+     height: 80px;
+     width: 100%;
+    }
+    .nameEmail{
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .contactForm button{
+      padding: 15px 20px;
+      border: none;
+      border-radius: 0.3rem;
+      background-color: #03296b;
+      font-family: 'Arimo', sans-serif;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+  }
+  
